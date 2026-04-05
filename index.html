@@ -1,0 +1,892 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aiman Harith's Portfolio</title>
+  <meta name="description" content="Professional portfolio showing my projects, skills and experience." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap"
+    rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#" class="logo">AIMAN HARITH ZAHARUDIN</a>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#hero" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#publications">Publishing</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#media">Media Coverage</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- App Container (Dynamic Content) -->
+  <main id="app">
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class="hero-content animate-fade-in-up" id="hero-content">
+          <div class="hero-badge">
+            <span class="dot"></span>
+            <span>Available for Work</span>
+          </div>
+          <div id="hero-data">
+            <h1 id="hero-title">
+              Hi, I'm a <br /><span class="gradient-text">IT Fresh Graduate</span>
+            </h1>
+            <p class="hero-description" id="hero-body">
+              Passionate about building efficient and scalable software solutions, with experience in backend operations
+              and IT systems support. A First Class Information Technology graduate seeking entry-level software
+              engineering opportunities.
+            </p>
+            <div class="hero-buttons">
+              <a href="#projects" class="btn btn-primary">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M3 3h7v7H3z" />
+                  <path d="M14 3h7v7h-7z" />
+                  <path d="M14 14h7v7h-7z" />
+                  <path d="M3 14h7v7H3z" />
+                </svg>
+                View Projects
+              </a>
+              <a href="#contact" class="btn btn-secondary">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path
+                    d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+                </svg>
+                Get in Touch
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="hero-image"></div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">About</span>
+          <h2>About Me</h2>
+        </div>
+        <div class="about-grid" id="about-container">
+          <div class="about-content animate-on-scroll">
+            <h2>Hello, I'm an IT Graduate</h2>
+            <p>I am a First Class graduate in Information Technology with hands-on experience in IT support, backend
+              operations, and digital systems through my professional placement at Maybank. I have a strong interest in
+              building reliable, scalable solutions and continuously improving system performance.
+            </p>
+            <p>Throughout my journey, I have developed a solid foundation in troubleshooting, system support, and
+              backend processes, while also exploring software development and modern technologies. I enjoy solving
+              complex technical problems and turning them into practical, efficient solutions.
+            </p>
+            <p>I am known for being adaptable, fast-learning, and detail-oriented, with the ability to work both
+              independently and in a team environment. My goal is to grow into a well-rounded software engineer while
+              contributing to impactful and meaningful projects.
+            </p>
+          </div>
+          <div class="about-image animate-on-scroll" style="display: flex; justify-content: center;">
+            <img src="assets/img/mypicture1.jpeg" alt="Aiman Harith Zaharudin"
+              style="width: 80%; aspect-ratio: 1; border-radius: var(--radius-xl); object-fit: cover; border: 1px solid rgba(255, 255, 255, 0.1);" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects" style="background: var(--bg-darker)">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Portfolio</span>
+          <h2>My Projects</h2>
+        </div>
+
+        <div class="grid grid-3" id="projects-grid">
+          <!-- Static Projects Content -->
+          <article class="project-card animate-on-scroll">
+            <div class="project-image">
+              <img src="assets/img/ItAssetManagerSystemFP.png" alt="IT Asset Management System mockup" />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="https://github.com/aimanharithzwork-wq/ItAssetManagerSystem" target="_blank"
+                    rel="noopener noreferrer" class="btn btn-secondary btn-icon"><svg width="20" height="20"
+                      viewBox="0 0 24 24" fill="currentColor">
+                      <path
+                        d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                    </svg></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>IT Asset Management</h3>
+              <p>An IT asset management system that helps track, manage, and monitor organizational hardware and
+                software efficiently.</p>
+              <div class="tech-stack">
+                <span class="tech-tag">PHP</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">CSS</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card animate-on-scroll">
+            <div class="project-image">
+              <img src="assets/img/OrderNow homescreen.png" alt="OrderNow By Dapur Adey mockup" />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="https://github.com/aimanharithzwork-wq/OrderNow" target="_blank"
+                    class="btn btn-secondary btn-icon"><svg width="20" height="20" viewBox="0 0 24 24"
+                      fill="currentColor">
+                      <path
+                        d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                    </svg></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>OrderNow By Dapur Adey</h3>
+              <p>A user interface design for an online food ordering system that allows users to browse menus, place
+                orders, and manage purchases efficiently.
+              </p>
+              <div class="tech-stack">
+                <span class="tech-tag">Figma</span>
+                <span class="tech-tag">UI/UX</span>
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card animate-on-scroll">
+            <div class="project-image">
+              <img src="assets/img/ClinicAi-smarthealthcaremanagement.png" alt="Portfolio Template mockup" />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="https://github.com/aimanharithzwork-wq/HealthcareSystem" target="_blank"
+                    class="btn btn-secondary btn-icon"><svg width="20" height="20" viewBox="0 0 24 24"
+                      fill="currentColor">
+                      <path
+                        d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                    </svg></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>ClinicAI</h3>
+              <p>A healthcare management system that enables users to manage patient information, appointments, and
+                medical records efficiently.</p>
+              <div class="tech-stack">
+                <span class="tech-tag">React.js</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">MySQL</span>
+              </div>
+            </div>
+          </article>
+          <article class="project-card animate-on-scroll">
+            <div class="project-image">
+              <img src="assets/img/FirstActfp.png" alt="FirstAct mockup" />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="https://github.com/aimanharithzwork-wq/FirstAct" target="_blank"
+                    class="btn btn-secondary btn-icon"><svg width="20" height="20" viewBox="0 0 24 24"
+                      fill="currentColor">
+                      <path
+                        d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                    </svg></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>FirstAct</h3>
+              <p>A user-centered mobile app prototype designed to provide quick and easy access to emergency services
+                through an intuitive and responsive interface.
+              </p>
+              <div class="tech-stack">
+                <span class="tech-tag">Figma</span>
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+            </div>
+          </article>
+          <article class="project-card animate-on-scroll">
+            <div class="project-image">
+              <img src="assets/img/SocesCampuselectionsystemfp.png" alt="FirstAct mockup" />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="https://github.com/aimanharithzwork-wq/OnlineCampusElectionSystem" target="_blank"
+                    class="btn btn-secondary btn-icon"><svg width="20" height="20" viewBox="0 0 24 24"
+                      fill="currentColor">
+                      <path
+                        d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                    </svg></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>SOCES Campus Election System</h3>
+              <p>An intuitive, AI-crafted web platform designed to streamline campus voting through a modern, responsive
+                interface and secure local data management.
+              </p>
+              <div class="tech-stack">
+                <span class="tech-tag">Figma</span>
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">PHP</span>
+                <span class="tech-tag">MySQL</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Publishing Section -->
+    <section class="section" id="publications">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Research</span>
+          <h2>Published</h2>
+          <p>Academic research and papers, including my Final Year Project (FYP).</p>
+        </div>
+
+        <div class="grid grid-2" id="publications-grid">
+          <article class="card animate-on-scroll">
+            <h3>Final Year Project (FYP) Paper</h3>
+            <p style="margin-bottom: 0.5rem; color: var(--text-primary);"><strong>Title:</strong> Fitness Tracker Mobile
+              Application for Calisthenics Exercises</p>
+            <p style="margin-bottom: 1rem; color: var(--text-secondary);"><strong>Published By/In:</strong> Fitness
+              Tracker Mobile Application for Calisthenics Exercises – Published in Journal of Computing Research and
+              Innovation (JCRINN), Vol. 8 (2), 2023.</p>
+            <p>This project presents a mobile application titled *“Fitness Tracker Mobile Application for Calisthenics
+              Exercises”, aimed at helping users track and manage their bodyweight workout routines. The main objective
+              is to provide a simple and efficient platform for monitoring calisthenics exercises and encouraging
+              consistent physical activity.<br><br>
+
+              The system was developed using the Software Development Life Cycle (SDLC), involving requirement analysis,
+              design, implementation, and testing. Key features include workout tracking, exercise scheduling, and
+              progress monitoring, supported by a database for secure data storage.<br><br>
+
+              Findings show that the application improves user motivation and helps users maintain regular exercise
+              habits. Overall, the system proves effective as a practical fitness tracking tool for calisthenics
+              training.
+            </p>
+            <div style="margin-top: 1.5rem;">
+              <a href="https://jcrinn.com/index.php/jcrinn/article/view/370" target="_blank" rel="noopener noreferrer"
+                class="btn btn-secondary" style="padding: 0.5rem 1rem; font-size: 0.875rem;">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  style="margin-right: 0.5rem;">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                  <polyline points="10 9 9 9 8 9"></polyline>
+                </svg>
+                Read Paper
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Expertise</span>
+          <h2>Skills & Technologies</h2>
+        </div>
+        <div id="skills-container">
+          <!-- Programming Section -->
+          <div class="skill-category animate-on-scroll">
+            <h3>Programming</h3>
+            <div class="skill-tags-group">
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">C++</span>
+              <span class="skill-tag">Java</span>
+              <span class="skill-tag">SQL</span>
+              <span class="skill-tag">PHP</span>
+              <span class="skill-tag">HTML</span>
+              <span class="skill-tag">CSS</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">Swift (Basic)</span>
+            </div>
+          </div>
+
+          <!-- Software & Tools Section -->
+          <div class="skill-category animate-on-scroll">
+            <h3>Software & Tools</h3>
+            <div class="skill-tags-group">
+              <span class="skill-tag">Android Studio</span>
+              <span class="skill-tag">Notepad++</span>
+              <span class="skill-tag">Visual Studio Code</span>
+              <span class="skill-tag">Xampp</span>
+              <span class="skill-tag">phpMyAdmin</span>
+              <span class="skill-tag">Figma</span>
+              <span class="skill-tag">Adobe Creative Suite</span>
+              <span class="skill-tag">Balsamiq</span>
+              <span class="skill-tag">Microsoft 365</span>
+              <span class="skill-tag">Google Workspace</span>
+              <span class="skill-tag">Swift Playground</span>
+            </div>
+          </div>
+
+          <!-- AI Tools Section -->
+          <div class="skill-category animate-on-scroll">
+            <h3>AI Tools</h3>
+            <div class="skill-tags-group">
+              <span class="skill-tag">Google Antigravity</span>
+              <span class="skill-tag">Claude</span>
+              <span class="skill-tag">ChatGPT</span>
+              <span class="skill-tag">Gemini</span>
+            </div>
+          </div>
+
+          <!-- Design & Research Section -->
+          <div class="skill-category animate-on-scroll">
+            <h3>Design & Research</h3>
+            <div class="skill-tags-group">
+              <span class="skill-tag">UI/UX Design</span>
+              <span class="skill-tag">User Research</span>
+              <span class="skill-tag">Usability Testing</span>
+              <span class="skill-tag">UAT</span>
+              <span class="skill-tag">Wireframing</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section class="section" id="certificates" style="background: var(--bg-darker)">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Achievements</span>
+          <h2>Relevant Certificates</h2>
+          <p>Professional certifications and completed training courses.</p>
+        </div>
+
+        <div class="grid grid-3" id="certificates-grid">
+          <article class="card animate-on-scroll"
+            style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+            <div
+              style="width: 64px; height: 64px; background: rgba(255, 255, 255, 0.9); border: 1px solid rgba(255, 255, 255, 0.2); border-radius: var(--radius-sm); display: flex; align-items: center; justify-content: center; margin-bottom: 1rem; overflow: hidden;">
+              <img src="assets/img/linkedin_logo.png" alt="LinkedIn Logo"
+                style="width: 100%; height: 100%; object-fit: contain; padding: 4px;" />
+            </div>
+            <h3>IT Help Desk for Beginners</h3>
+            <p style="margin-bottom: 0.5rem; color: var(--text-primary);">LinkedIn</p>
+            <p style="font-size: 0.875rem; color: var(--text-muted);">Issued: April 2026</p>
+            <a href="https://www.linkedin.com/learning/certificates/7790de0b019eca220ae1514e397bd64063f0f901467ad964f919e2a227d4ecf8"
+              target="_blank" rel="noopener noreferrer"
+              style="margin-top: auto; padding-top: 1.5rem; display: flex; align-items: center; gap: 0.5rem; font-size: 0.875rem;">
+              View Credential
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </article>
+
+          <article class="card animate-on-scroll"
+            style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+            <div
+              style="width: 64px; height: 64px; background: rgba(255, 255, 255, 0.9); border-radius: var(--radius-sm); border: 1px solid rgba(255, 255, 255, 0.2); display: flex; align-items: center; justify-content: center; margin-bottom: 1rem; overflow: hidden;">
+              <img src="assets/img/mimo_logo.png" alt="Mimo Logo"
+                style="width: 100%; height: 100%; object-fit: contain; padding: 4px;" />
+            </div>
+            <h3>Python Development Professional Certificate</h3>
+            <p style="margin-bottom: 0.5rem; color: var(--text-primary);">Mimo</p>
+            <p style="font-size: 0.875rem; color: var(--text-muted);">Issued: February 2026</p>
+            <a href="https://www.virtualbadge.io/certificate-validator?credential=3cf37176-0821-4313-8f9f-c77dbe796989"
+              target="_blank" rel="noopener noreferrer"
+              style="margin-top: auto; padding-top: 1.5rem; display: flex; align-items: center; gap: 0.5rem; font-size: 0.875rem;">
+              View Credential
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </article>
+
+          <article class="card animate-on-scroll"
+            style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+            <div
+              style="width: 64px; height: 64px; background: rgba(255, 255, 255, 0.9); border-radius: var(--radius-sm); border: 1px solid rgba(255, 255, 255, 0.2); display: flex; align-items: center; justify-content: center; margin-bottom: 1rem; overflow: hidden;">
+              <img src="assets/img/microsoft_logo.png" alt="microsoft Logo"
+                style="width: 100%; height: 100%; object-fit: contain; padding: 4px;" />
+            </div>
+            <h3>AI For MY Future!</h3>
+            <p style="margin-bottom: 0.5rem; color: var(--text-primary);">Microsoft</p>
+            <p style="font-size: 0.875rem; color: var(--text-muted);">Issued: February 2026</p>
+            <a href="https://pepper-s-site-1c7b.thinkific.com/certificates/olxspwbjx3" target="_blank"
+              rel="noopener noreferrer"
+              style="margin-top: auto; padding-top: 1.5rem; display: flex; align-items: center; gap: 0.5rem; font-size: 0.875rem;">
+              View Credential
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </article>
+          <article class="card animate-on-scroll"
+            style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+            <div
+              style="width: 64px; height: 64px; background: rgba(255, 255, 255, 0.9); border-radius: var(--radius-sm); border: 1px solid rgba(255, 255, 255, 0.2); display: flex; align-items: center; justify-content: center; margin-bottom: 1rem; overflow: hidden;">
+              <img src="assets/img/mimo_logo.png" alt="mimo Logo"
+                style="width: 100%; height: 100%; object-fit: contain; padding: 4px;" />
+            </div>
+            <h3>Python AI Development</h3>
+            <p style="margin-bottom: 0.5rem; color: var(--text-primary);">Mimo</p>
+            <p style="font-size: 0.875rem; color: var(--text-muted);">Issued: February 2026</p>
+            <a href="https://www.virtualbadge.io/certificate-validator?credential=3cf37176-0821-4313-8f9f-c77dbe796989"
+              target="_blank" rel="noopener noreferrer"
+              style="margin-top: auto; padding-top: 1.5rem; display: flex; align-items: center; gap: 0.5rem; font-size: 0.875rem;">
+              View Credential
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Media Coverage Section -->
+    <section class="section" id="media">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Press</span>
+          <h2>Media Coverage</h2>
+          <p>Features, interviews, and mentions in the media.</p>
+        </div>
+
+        <div class="grid grid-2" id="media-grid">
+          <article class="card animate-on-scroll">
+            <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+              <div
+                style="width: 48px; height: 48px; background: rgba(255, 255, 255, 0.9); border-radius: var(--radius-sm); border: 1px solid rgba(255, 255, 255, 0.2); display: flex; align-items: center; justify-content: center; overflow: hidden;">
+                <img src="assets/img/mg-logo.jpg.jpg" alt="Malaysia Gazette Logo"
+                  style="width: 100%; height: 100%; object-fit: contain; padding: 4px;" />
+              </div>
+              <div>
+                <h3 style="margin-bottom: 0.25rem;">MalaysiaGazette</h3>
+                <p style="margin-bottom: 0; font-size: 0.875rem; color: var(--text-muted);">Published: September 2024
+                </p>
+              </div>
+            </div>
+            <p style="margin-bottom: 1rem;">Featured in Malaysia Gazette, highlighting Aiman Harith’s achievement in
+              overcoming physical challenges to excel academically and complete a First-Class Honours degree in
+              Information Technology, proving that determination is a key factor in success.</p>
+            <a href="https://malaysiagazette.com/2024/09/07/saiz-kecil-bukan-penghalang-aiman-capai-kejayaan/"
+              target="_blank" rel="noopener noreferrer" class="btn btn-secondary"
+              style="padding: 0.5rem 1rem; font-size: 0.875rem;">
+              Read Article
+            </a>
+          </article>
+
+          <article class="card animate-on-scroll">
+            <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+              <div
+                style="width: 48px; height: 48px; background: rgba(255, 255, 255, 0.9); border-radius: var(--radius-sm); border: 1px solid rgba(255, 255, 255, 0.2); display: flex; align-items: center; justify-content: center; overflow: hidden;">
+                <img src="assets/img/logo_sinarbestari.png" alt="Sinar Bestari Logo"
+                  style="width: 100%; height: 100%; object-fit: contain; padding: 4px;" />
+              </div>
+              <div>
+                <h3 style="margin-bottom: 0.25rem;">Sinar Bestari</h3>
+                <p style="margin-bottom: 0; font-size: 0.875rem; color: var(--text-muted);">Published: September 2024
+                </p>
+              </div>
+            </div>
+            <p style="margin-bottom: 1rem;">Featured in Sinar Bestari (Sinar Harian), highlighting Aiman Harith’s
+              journey in overcoming self-doubt and challenges to achieve First-Class Honours in Information Technology,
+              demonstrating resilience, determination, and academic excellence.</p>
+            <a href="https://sinarbestari.sinarharian.com.my/my-ipt/rangkul-ijazah-kelas-pertama-saya-ketepikan-rasa-rendah-diri-demi-mengejar-kejayaan-aiman-harith"
+              target="_blank" rel="noopener noreferrer" class="btn btn-secondary"
+              style="padding: 0.5rem 1rem; font-size: 0.875rem;">
+              Read Article
+            </a>
+          </article>
+          <article class="card animate-on-scroll">
+            <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+              <div
+                style="width: 48px; height: 48px; background: rgba(255, 255, 255, 0.9); border-radius: var(--radius-sm); border: 1px solid rgba(255, 255, 255, 0.2); display: flex; align-items: center; justify-content: center; overflow: hidden;">
+                <img src="assets/img/logo_uitm.png" alt="uitm Logo"
+                  style="width: 100%; height: 100%; object-fit: contain; padding: 4px;" />
+              </div>
+              <div>
+                <h3 style="margin-bottom: 0.25rem;">Warta Konvo UiTM</h3>
+                <p style="margin-bottom: 0; font-size: 0.875rem; color: var(--text-muted);">Published: September 2024
+                </p>
+              </div>
+            </div>
+            <p style="margin-bottom: 1rem;">Featured in a published digital flipbook discussing Aiman Harith’s academic
+              journey and achievements in Information Technology, highlighting his perseverance in overcoming challenges
+              and successfully attaining First-Class Honours.</p>
+            <a href="https://online.fliphtml5.com/uybwz/yzxa/" target="_blank" rel="noopener noreferrer"
+              class="btn btn-secondary" style="padding: 0.5rem 1rem; font-size: 0.875rem;">
+              Read Article
+            </a>
+          </article>
+          <article class="card animate-on-scroll">
+            <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+              <div
+                style="width: 48px; height: 48px; background: rgba(255, 255, 255, 0.9); border-radius: var(--radius-sm); border: 1px solid rgba(255, 255, 255, 0.2); display: flex; align-items: center; justify-content: center; overflow: hidden;">
+                <img src="assets/img/logo_harianmetro.png" alt="harian-metro Logo"
+                  style="width: 100%; height: 100%; object-fit: contain; padding: 4px;" />
+              </div>
+              <div>
+                <h3 style="margin-bottom: 0.25rem;">Harian Metro</h3>
+                <p style="margin-bottom: 0; font-size: 0.875rem; color: var(--text-muted);">Published: September 2024
+                </p>
+              </div>
+            </div>
+            <p style="margin-bottom: 1rem;">Featured in Harian Metro, highlighting Aiman Harith’s achievement in
+              completing a First-Class Honours degree in Information Technology, while overcoming physical challenges
+              and demonstrating strong determination in pursuing academic and career success.</p>
+            <a href="https://www.pressreader.com/malaysia/harian-metro/20240909/282123526879008" target="_blank"
+              rel="noopener noreferrer" class="btn btn-secondary" style="padding: 0.5rem 1rem; font-size: 0.875rem;">
+              Read Article
+            </a>
+          </article>
+          <article class="card animate-on-scroll">
+            <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+              <div
+                style="width: 48px; height: 48px; background: rgba(255, 255, 255, 0.9); border-radius: var(--radius-sm); border: 1px solid rgba(255, 255, 255, 0.2); display: flex; align-items: center; justify-content: center; overflow: hidden;">
+                <img src="assets/img/logo_uitm.png" alt="UiTM Logo"
+                  style="width: 100%; height: 100%; object-fit: contain; padding: 4px;" />
+              </div>
+              <div>
+                <h3 style="margin-bottom: 0.25rem;">UiTM - Media Rasmi</h3>
+                <p style="margin-bottom: 0; font-size: 0.875rem; color: var(--text-muted);">Published: September 2026
+                </p>
+              </div>
+            </div>
+            <p style="margin-bottom: 1rem;">Featured in a Facebook video interview highlighting Aiman Harith’s
+              inspiring journey, showcasing his determination in overcoming challenges and achieving academic success in
+              Information Technology.</p>
+            <a href="https://www.facebook.com/share/v/1ZmGpCTuGv/" target="_blank" rel="noopener noreferrer"
+              class="btn btn-secondary" style="padding: 0.5rem 1rem; font-size: 0.875rem;">
+              View Interview
+            </a>
+          </article>
+          <article class="card animate-on-scroll">
+            <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+              <div
+                style="width: 48px; height: 48px; background: rgba(255, 255, 255, 0.9); border-radius: var(--radius-sm); border: 1px solid rgba(255, 255, 255, 0.2); display: flex; align-items: center; justify-content: center; overflow: hidden;">
+                <img src="assets/img/logo_wilayahku.png" alt="wilayahku Logo"
+                  style="width: 100%; height: 100%; object-fit: contain; padding: 4px;" />
+              </div>
+              <div>
+                <h3 style="margin-bottom: 0.25rem;">WilayahKu</h3>
+                <p style="margin-bottom: 0; font-size: 0.875rem; color: var(--text-muted);">Published: April 2026
+                </p>
+              </div>
+            </div>
+            <p style="margin-bottom: 1rem;">Featured in WilayahKu, highlighting Aiman Harith’s inspiring journey of
+              turning physical limitations into motivation, successfully achieving a First-Class Honours degree in
+              Information Technology through resilience and strong determination.</p>
+            <a href="https://www.wilayahku.com.my/topics/aiman-harith-zaharudin/" target="_blank"
+              rel="noopener noreferrer" class="btn btn-secondary" style="padding: 0.5rem 1rem; font-size: 0.875rem;">
+              Read Article
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Get in Touch</span>
+          <h2>Contact Me</h2>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h2>Let's Connect</h2>
+            <p>
+              I'm currently available for work. Feel free to reach out!
+            </p>
+            <div class="contact-links" id="contact-details">
+              <a href="mailto:aimanharithz.work@gmail.com" class="contact-link"
+                style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem; text-decoration: none; color: var(--text-secondary);">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                  <polyline points="22,6 12,13 2,6" />
+                </svg>
+                <div>
+                  <span style="display: block; font-weight: 600; color: var(--text-primary);">Email</span>
+                  <span>aimanharithz.work@gmail.com</span>
+                </div>
+              </a>
+              <a href="https://www.linkedin.com/in/aiman-harith-zaharudin/" class="contact-link" target="_blank"
+                rel="noopener noreferrer"
+                style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem; text-decoration: none; color: var(--text-secondary);">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                </svg>
+                <div>
+                  <span style="display: block; font-weight: 600; color: var(--text-primary);">LinkedIn</span>
+                  <span>linkedin.com/aimanharithzaharudin</span>
+                </div>
+              </a>
+              <a href="https://github.com/aimanharithzwork-wq" class="contact-link" target="_blank"
+                rel="noopener noreferrer"
+                style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem; text-decoration: none; color: var(--text-secondary);">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                </svg>
+                <div>
+                  <span style="display: block; font-weight: 600; color: var(--text-primary);">GitHub</span>
+                  <span>github.com/aimanharithzwork-wq</span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card card-glass">
+            <div class="contact-method-toggle">
+              <button class="toggle-btn active" data-method="system">System Message</button>
+              <button class="toggle-btn" data-method="whatsapp">WhatsApp</button>
+            </div>
+
+            <div id="contact-status"></div>
+
+            <form id="contact-form" class="contact-method active">
+              <div class="form-group">
+                <label for="name">Name *</label>
+                <input type="text" id="name" name="name" class="form-control" placeholder="Your name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" class="form-control" placeholder="your@email.com"
+                  required />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" class="form-control" placeholder="+60123456789" />
+              </div>
+              <div class="form-group">
+                <label for="message">Message *</label>
+                <textarea id="message" name="message" class="form-control" placeholder="Tell me about your project..."
+                  required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" style="width: 100%" id="submit-btn">
+                Send Message
+              </button>
+            </form>
+
+            <div id="contact-whatsapp" class="contact-method"
+              style="display: none; text-align: center; padding: 2rem 0;">
+              <div style="font-size: 4rem; margin-bottom: 1rem; color: #25D366;">
+                <svg width="64" height="64" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.506-.669-.516-.173-.009-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+                </svg>
+              </div>
+              <h3>Chat on WhatsApp</h3>
+              <p>Available for quick questions and project discussions.</p>
+              <a href="#" id="whatsapp-btn" class="btn btn-primary mt-md" target="_blank">
+                Open WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo logo" style="cursor: default;">PORTFOLIO</div>
+        <div class="social-links" id="social-links"></div>
+        <p>&copy; <span id="current-year"></span> All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Simple inline JS to replace dynamic functionality
+    document.addEventListener('DOMContentLoaded', () => {
+      document.getElementById('current-year').textContent = new Date().getFullYear();
+
+      // Scroll animations
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) entry.target.classList.add('visible');
+        });
+      }, { threshold: 0.1 });
+      document.querySelectorAll('.animate-on-scroll').forEach(el => observer.observe(el));
+
+      // Navbar scroll effect & Section Highlighter (Scroll Spy)
+      const navLinks = document.querySelectorAll('.nav-menu a');
+      const sections = document.querySelectorAll('section[id]');
+
+      const highlightNav = () => {
+        let scrollY = window.pageYOffset;
+
+        // Sticky navbar background effect
+        if (scrollY > 50) document.getElementById('navbar').classList.add('scrolled');
+        else document.getElementById('navbar').classList.remove('scrolled');
+
+        // Scroll Spy Logic
+        sections.forEach(current => {
+          const sectionHeight = current.offsetHeight;
+          const sectionTop = current.offsetTop - 100;
+          const sectionId = current.getAttribute('id');
+
+          if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+            navLinks.forEach(link => {
+              link.classList.remove('active');
+              if (link.getAttribute('href') === `#${sectionId}`) {
+                link.classList.add('active');
+              }
+            });
+          }
+        });
+      };
+
+      window.addEventListener('scroll', highlightNav);
+
+      // Handle direct clicks for immediate highlighting
+      navLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
+          navLinks.forEach(l => l.classList.remove('active'));
+          link.classList.add('active');
+          // Close mobile menu if open
+          const navMenu = document.getElementById('nav-menu');
+          const navToggle = document.getElementById('nav-toggle');
+          if (navMenu.classList.contains('active')) {
+            navMenu.classList.remove('active');
+            navToggle.classList.remove('active');
+          }
+        });
+      });
+
+      // Mobile Menu
+      const navToggle = document.getElementById('nav-toggle');
+      const navMenu = document.getElementById('nav-menu');
+      navToggle.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
+        navToggle.classList.toggle('active');
+      });
+
+      // Contact Form - Real Formspree Integration
+      const contactForm = document.getElementById('contact-form');
+      if (contactForm) {
+        contactForm.addEventListener('submit', async (e) => {
+          e.preventDefault();
+          const btn = document.getElementById('submit-btn');
+          const status = document.getElementById('contact-status');
+
+          // --- GET YOUR FORMSPREE ID FROM https://formspree.io/ ---
+          const formspreeID = 'xjgpeebe'; // <--- Paste your ID here
+
+          btn.textContent = 'Sending...';
+          btn.disabled = true;
+
+          const formData = new FormData(contactForm);
+
+          try {
+            const response = await fetch(`https://formspree.io/f/${formspreeID}`, {
+              method: 'POST',
+              body: formData,
+              headers: {
+                'Accept': 'application/json'
+              }
+            });
+
+            if (response.ok) {
+              btn.textContent = 'Send Message';
+              btn.disabled = false;
+              status.innerHTML = '<div style="padding: 1rem; background: rgba(34,197,94,0.1); color: rgb(34,197,94); border-radius: 0.5rem; margin-bottom: 1rem; border: 1px solid rgba(34,197,94,0.3);">Thank you! Message sent successfully. I will get back to you soon.</div>';
+              contactForm.reset();
+
+              // Clear success message after 5 seconds
+              setTimeout(() => {
+                status.innerHTML = '';
+              }, 5000);
+            } else {
+              const data = await response.json();
+              throw new Error(data.error || 'Submission failed');
+            }
+          } catch (error) {
+            btn.textContent = 'Send Message';
+            btn.disabled = false;
+            status.innerHTML = `<div style="padding: 1rem; background: rgba(239,68,68,0.1); color: rgb(239,68,68); border-radius: 0.5rem; margin-bottom: 1rem; border: 1px solid rgba(239,68,68,0.3);">Oops! There was a problem. ${error.message}</div>`;
+          }
+        });
+      }
+
+      // Contact Method Toggle Logic
+      const toggleBtns = document.querySelectorAll('.toggle-btn');
+      const contactMethods = document.querySelectorAll('.contact-method');
+      const whatsappBtn = document.getElementById('whatsapp-btn');
+
+      // Update WhatsApp link (using placeholder phone number)
+      if (whatsappBtn) {
+        const phoneNumber = '60123456789'; // Replace with your actual phone number
+        const message = encodeURIComponent("Hi Aiman, I saw your portfolio and would like to connect!");
+        whatsappBtn.href = `https://wa.me/${phoneNumber}?text=${message}`;
+      }
+
+      toggleBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const method = btn.getAttribute('data-method');
+
+          // Update buttons
+          toggleBtns.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+
+          // Update methods visibility
+          contactMethods.forEach(m => {
+            m.style.display = 'none';
+            m.classList.remove('active');
+          });
+
+          if (method === 'system') {
+            const form = document.getElementById('contact-form');
+            form.style.display = 'block';
+            setTimeout(() => form.classList.add('active'), 10);
+          } else if (method === 'whatsapp') {
+            const whatsapp = document.getElementById('contact-whatsapp');
+            whatsapp.style.display = 'block';
+            setTimeout(() => whatsapp.classList.add('active'), 10);
+          }
+        });
+      });
+    });
+  </script>
+</body>
+
+</html>
